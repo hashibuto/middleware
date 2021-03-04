@@ -1,6 +1,10 @@
 # middleware
 A handy tool for chaining http.Handler middlewares in Golang
 
+```
+import "github.com/hashibuto/middleware"
+```
+
 ## The problem
 
 Middleware chaining involves one middleware calling another, which in turn calls another, and so on.  This is both irritating to write, as well as annoying to reuse.
